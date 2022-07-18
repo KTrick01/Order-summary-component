@@ -23,7 +23,7 @@ html, body {
 }
 
 body {
-    background-image: url( '/images/pattern-background-desktop.svg' );
+    background-image: url( '../images/pattern-background-desktop.svg' );
     background-color: var(--Pale-blue);
     background-repeat: no-repeat;
     background-size: contain;
@@ -127,7 +127,7 @@ body {
     color: var(--Dark-blue);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 420px) {
     body {
         background-image: none;
     }
